@@ -1,6 +1,7 @@
 package com.nmt.film4life.ui
 
 import android.annotation.SuppressLint
+import android.content.Intent
 import android.graphics.Color
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -58,7 +59,9 @@ class SearchFragment : BaseFragment() {
         val layout=GridLayoutManager(context,3)
         movieAdapter=MovieAdapter(mutableListOf(),AppHelper.getScreenWidthAndHeight(activity as BaseActivity)!!.width/3-10*4,object : OnItemClickListener{
             override fun onItemClicking(item: Movie.Result, imgView: ImageView) {
-
+                val intent=Intent(context,DetailActivity::class.java)
+                intent.putExtra("data",item)
+                startActivity(intent)
             }
 
             override fun onVideoClicking(youTubePlayer: YouTubePlayer) {
