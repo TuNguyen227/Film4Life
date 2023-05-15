@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "103165722660",
+    "project_id": "film4life-86125",
+    "storage_bucket": "film4life-86125.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:103165722660:android:669e6b92e82dd008e2d8b1",
+        "android_client_info": {
+          "package_name": "com.nmt.film4life"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "103165722660-v8br4cqh39okpom2l9uvts6hkrb46cb0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.nmt.film4life",
+            "certificate_hash": "6215454bb7e3c99127d9b8df6e46750580f0f734"
+          }
+        },
+        {
+          "client_id": "103165722660-hrlv03i08bd17u6e9c01pmingverfaan.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBvo9brkuD5nkXYCusaVuKg_qGAE8j7uWU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "103165722660-1lnmhfi01ib2pb7d6ivsg0kp9venpb75.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
